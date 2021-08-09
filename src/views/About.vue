@@ -1,15 +1,15 @@
 <template>
   <div class="about">
-    <home></home>
+    <HelloWorld1 msg="HelloWorld!" />
+    <a href="www.biadu.com">baidu</a>
   </div>
 </template>
 <script>
-import HelloWorld from "../components/HelloWorld";
-import  home from "./Home"
+import HelloWorld1 from '@/components/HelloWorld.vue';
 export default {
   name: "About",
   components: {
-    home
+    HelloWorld1,
   },
 };
 </script>
