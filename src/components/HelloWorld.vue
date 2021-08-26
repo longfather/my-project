@@ -6,10 +6,15 @@
 <script>
 export default {
   name: "HelloWorld",
-  props: {
-    msg:{
-      type:String
+  data(){
+    return{
+      msg: 'hello'
     }
   },
+  // props: {
+  //   msg:{
+  //     type:String
+  //   }
+  // },
 };
 </script>
